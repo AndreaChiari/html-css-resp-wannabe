@@ -127,3 +127,67 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+ /* moblile responsive */
+
+ @media screen and (max-width: 576px ) {
+     
+
+*{
+    margin: 0 auto;
+}
+
+.row{
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.container{
+    width: 90%;
+}
+.card{
+    margin-bottom: 50px;
+}
+
+.lessons .col {
+    width: 80%;
+}
+
+.col{
+    margin-bottom: 10px;
+}
+
+.container > h2{
+    margin: 0px auto;
+    width: 90%;
+    margin-bottom: 25px;
+    
+}
+
+.steps .col{
+    width: 80%;
+}
+      
+.why-us .col-right {
+    width: 90%;
+}
+
+ }
+
+
+ /*tablet responsive */
+ @media screen and (max-width: 768px ) {
+     
+    .container{
+        width: 90%;
+    }
+}
+
+/* bonus */
+@media screen and (max-width: 1160px ){
+    .container{
+        width: 90%;
+    }
+}
+ 
